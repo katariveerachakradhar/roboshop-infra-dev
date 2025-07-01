@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform-applys"
+    bucket = "terr-nana"
     key    = "roboshop-dev-vpn"
     region = "us-east-1"
     encrypt        = true
